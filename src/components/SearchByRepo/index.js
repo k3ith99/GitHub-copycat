@@ -39,14 +39,14 @@ const SearchByRepo = () => {
 
     return(
         <div className="news-reader">
-            <h1> Search form</h1>
+            {/* <h1 className = "searchId"> Search form</h1> */}
             <div className="areaA">
                 <p> {username} 's repos </p>
                 <ul>
                     {
                         reps.map( sg => (
                             <li key = {sg.id} > 
-                            <button className="gitButton" onClick={handleClick}> Repo name: {sg.name} </button>
+                            <button className="gitButton" onClick={handleClick}> Repo name: {sg.name} {sg.id} </button>
                             </li>
                         )
 
