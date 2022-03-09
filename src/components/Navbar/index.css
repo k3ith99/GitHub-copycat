@@ -1,0 +1,27 @@
+
+nav {
+  position: relative;
+  width: 100vw;
+  background-color: #FFDDDD;
+  padding: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: larger;
+}
+
+a:hover {
+  color: blue;
+  font-weight: bolder;
+}
+
+a.active {
+  color: red;
+  font-weight: bolder;
+}
