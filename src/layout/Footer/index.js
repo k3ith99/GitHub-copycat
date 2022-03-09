@@ -1,13 +1,6 @@
-import React from "react";
-import "./index.css";
+import React from 'react';
+import './index.css';
 
-const Footer = () => {
-  return (
-    <>
-      <div id="footer"></div>
-    </>
-  );
-};
+const Footer = () => <span id="footer"> this is the footer</span>
 
 export default Footer;
-
