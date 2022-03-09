@@ -1,5 +1,5 @@
 import React from "react";
-import {SearchByUser} from '../../components'
+import {SearchByUser,SearchByRepo} from '../../components'
 
 
 
@@ -10,6 +10,7 @@ function Search() {
       <h1>this is the search page</h1>
       <div>
       <SearchByUser/>
+      <SearchByRepo/>
       </div>
 
     </>
