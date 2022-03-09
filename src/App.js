@@ -1,17 +1,22 @@
 import React from 'react';
-import './App.css';
-import {SearchByUser} from './components'
+import { Switch, Route } from "react-router-dom";
+import { NavBar} from './components';
+import { About, Home, Search  } from './pages';
+import { Footer } from './layout';
 
+import './App.css';
 
 function App() {
   return (
     <>
-    <div>
-      Hello world
-    </div>
-    <SearchByUser/>
+     <NavBar />
+      <Switch>
+        <Route exact path="/"><Home /></Route>
+        <Route path="/about"><About /></Route>
+        <Route path="/search"><Search /></Route>
+      </Switch>
+      <Footer />
     </>
-      
   );
 }
 
