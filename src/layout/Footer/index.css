@@ -1,12 +1,14 @@
 #footer {
   width: 100vw;
-  position: absolute;
-  background-color: #bb6c6c;
+  position: fixed;
+  bottom: 0;
+  background-color: #FFDDDD;
   padding: 10px;
-  display: block;
-  /* justify-content: center;
-  display: flex; */
+  justify-content: center;
+  display: flex;
   margin: 0;
-
+  border-color: #d19494;
+  border-style: solid;
+  border-width: 2px;
 }
 
