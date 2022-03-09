@@ -40,7 +40,7 @@ const SearchByUser = () => {
                         <ul>{
                         userData.map( sg => (
                             <li key = {sg.id} > 
-                            <button className="gitButton" onClick={handleClick}> Repo name: {sg.name} </button>
+                            <button className="gitButton" > Repo name: {sg.name} </button>
                             </li>
                         )
 
