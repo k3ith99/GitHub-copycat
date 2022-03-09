@@ -1,16 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import './index.css';
+// import './index.css';
 
 const NavBar = () => {
     return (
             <nav>
                 <NavLink exact to="/" activeClassName="active">Home</NavLink>
-                <NavLink to="/aboutus" activeClassName="active">About us</NavLink>
-                <NavLink to="/search" activeClassName="active">search</NavLink>
+                <NavLink to="/about" activeClassName="active">About</NavLink>
+                <NavLink to="/search" activeClassName="active">Search</NavLink>
             </nav>
     );
 }
 
-export default NavBar;
+export default NavBar; 
