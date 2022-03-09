@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
 
 body{
-  background-color: rgb(32, 30, 30);
+  background-color: #E8FFFF;
 }
 
-
+#welcome_div{
+  height: 400px;
+  margin: 110px;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 0 rgb(228, 64, 119), 0 1px rgb(228, 64, 119), 1px 0 rgb(228, 64, 119), 0 -1px rgb(228, 64, 119);
+  background-image: url(https://c.tenor.com/Pn716Ubj1lsAAAAi/ibunwoo-wink.gif);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position-x:right;
+  background-position-y: 200px;
+  font-family: 'Love Light', cursive;
+  font-size: 25px;
+}
 
 /* .App {
   text-align: center;
