@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {SearchByUser} from './components'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       Hello world
     </div>
+    <SearchByUser/>
     </>
       
   );
