@@ -2,7 +2,6 @@
   width: 100vw;
   position: absolute;
   background-color: #FFDDDD;
-  padding: 23px;
   display: block;
   justify-content: center;
   text-align: center;
@@ -23,7 +22,15 @@ a:hover{
   background-color: #FFDDDD;
 }
 
+.footer-text {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
 h3{
-  color: hotpink;
+  color: #E74291;
   font-style: italic;
+  font-size: 18px;
+  margin-top: -10px;
 }
