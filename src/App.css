@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bubble-cute');
 
 body{
   background-color: #E8FFFF;
@@ -23,11 +24,51 @@ body{
   
 
 }
-
 #welcome_div:hover { 
 background-color: pink;
 }
 
+
+#aboutus-div{
+  height: 400px;
+  margin-bottom: 190px;
+  margin-left: 20px;
+  padding: 15px;
+  background-image: url(https://c.tenor.com/gWzfQUGmUmcAAAAi/cute-pink.gif);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-x:center;
+  background-position-y: 200px;
+  
+}
+
+p {
+  font-size: 18px;
+}
+
+
+h1{
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 0 rgb(228, 64, 119), 0 1px rgb(228, 64, 119), 1px 0 rgb(228, 64, 119), 0 -1px rgb(228, 64, 119);
+  font-family: 'Love Light', cursive;
+  font-size: 60px;
+}
+
+.sub-titles{
+  font-family: 'bubble cute', sans-serif;
+  color: rgb(216, 142, 154);
+  letter-spacing: 2px;
+  text-shadow: -5px 0 rgb(0, 0, 0), 0 2px rgb(228, 64, 119), 2px 0 rgb(228, 64, 119), 0 -3px rgb(0, 0, 0);
+} 
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(10, 10, 10);
+}
+
+.sub-titles:hover{
+  color: rgb(241, 171, 183);;
+}
 
 .news-reader {
     display: grid;
