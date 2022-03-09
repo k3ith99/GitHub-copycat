@@ -4,7 +4,6 @@ body{
   background-color: #E8FFFF;
   max-width: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 #welcome_div{
@@ -16,43 +15,8 @@ body{
   background-repeat: no-repeat;
   background-size: 250px;
   background-position-x:right;
-  background-position-y: 120px;
+  background-position-y: 160px;
   font-family: 'Love Light', cursive;
   font-size: 25px;
 }
 
-/* .App {
-  text-align: center;
-}
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
