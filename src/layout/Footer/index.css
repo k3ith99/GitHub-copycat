@@ -1,0 +1,36 @@
+#footer {
+  width: 100vw;
+  position: absolute;
+  background-color: #FFDDDD;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-left: -10px;
+  border-color: #d19494;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+a img{
+  margin-bottom: -20px;
+  width: 40px;
+  height: 40px;
+}
+
+a:hover{
+  background-color: #FFDDDD;
+}
+
+.footer-text {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+h3{
+  color: #E74291;
+  font-style: italic;
+  font-size: 18px;
+  margin-top: -10px;
+}

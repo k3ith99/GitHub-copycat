@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bubble-cute');
+
+body{
+  background-color: #E8FFFF;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#welcome_div{
+  height: 400px;
+  margin: 110px;
+  padding: 15px;
+  border-style:ridge;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 0 rgb(228, 64, 119), 0 1px rgb(228, 64, 119), 1px 0 rgb(228, 64, 119), 0 -1px rgb(228, 64, 119);
+  background-image: url(https://c.tenor.com/Pn716Ubj1lsAAAAi/ibunwoo-wink.gif);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position-x:right;
+  background-position-y: 200px;
+  font-family: 'Love Light', cursive;
+  font-size: 25px;
+  
+
+}
+#welcome_div:hover { 
+background-color: pink;
+}
+
+
+#aboutus-div{
+  height: 400px;
+  margin-bottom: 190px;
+  margin-left: 20px;
+  padding: 15px;
+  background-image: url(https://c.tenor.com/gWzfQUGmUmcAAAAi/cute-pink.gif);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-x:center;
+  background-position-y: 200px;
+  
+}
+
+p {
+  font-size: 18px;
+}
+
+
+h1{
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 0 rgb(228, 64, 119), 0 1px rgb(228, 64, 119), 1px 0 rgb(228, 64, 119), 0 -1px rgb(228, 64, 119);
+  font-family: 'Love Light', cursive;
+  font-size: 60px;
+}
+
+.sub-titles{
+  font-family: 'bubble cute', sans-serif;
+  color: rgb(216, 142, 154);
+  letter-spacing: 2px;
+  text-shadow: -5px 0 rgb(0, 0, 0), 0 2px rgb(228, 64, 119), 2px 0 rgb(228, 64, 119), 0 -3px rgb(0, 0, 0);
+} 
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(10, 10, 10);
+}
+
+.sub-titles:hover{
+  color: rgb(241, 171, 183);;
+}
+
+.news-reader {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    text-align: center;
+    grid-template-areas: 
+        "hd hd hd"
+        "st st as";
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.2rem;
+}
+
+.searchId { 
+    grid-area: hd;
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 1.5rem;
+    width: 100vw;
+    text-align: center;
+} 
+
+form{
+  margin-top: 30px
+}
+
+
+.area0 { grid-area: hd;
+height: 100px;
+font-weight: 700;
+font-size: 12px;}
+
+.areaA { grid-area: st;}
+.areaB { grid-area: as;
+  vertical-align: middle }
+
+.gitButton {min-width: 60px;}
+
+li { list-style: none; }
+
+/* li:hover { cursor: pointer; } */
+
+span{
+  color: firebrick;
+  margin-top: 10px;
+}
+
+img {
+    /* height: 60vh; */
+    width: 30vw;
+    margin: 2rem;
+
+}
+
+#feature {
+    padding: 2rem 10vw;
+    text-align: justify;
+}
+
+/* h3 { font-size: 2.2rem; } */
+
+input, [type="submit"] { 
+    font-family: 'News Cycle',
+    sans-serif; background-color: wheat;
+    padding: 5px;
+}
+
+button, [type="submit"] { font-weight: 700; }
+
+input { border: none; }
+
+button { border: 2px solid black; }
+
+button:hover {background-color: rgb(255, 255, 255);}
+
+.current {background-color: rgb(255, 255, 255);}
+
+[type="submit"] { border-left: 1px dashed black; }
+
+.repo-results{
+  font-size: smaller;
+  border-style: solid;
+  width: 290px;
+  border-radius: 7px;
+  border-color: black;
+  border-width: 2px;
+  background-color: rgb(245, 245, 245);
+  margin:auto;
+  white-space: pre-line;
+  font-weight: 800;
+}
+
+div.p{
+  white-space: pre;
+  font-weight: 700;
+}
