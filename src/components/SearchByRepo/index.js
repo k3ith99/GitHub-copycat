@@ -34,6 +34,7 @@ const SearchByRepo = () => {
             setStatus(0)
         } catch(err){
             console.log("Can't find user");
+
             setStatus(1)
             }
         };
@@ -41,7 +42,6 @@ const SearchByRepo = () => {
    
     
     //////////////////////////////////////////////////////
-    //const [username, setUsername] = useState("k3ith99");
     //let repository = ["some things"];
 
     
@@ -63,9 +63,10 @@ const SearchByRepo = () => {
         //console.log(`You clicked something `);
         //console.log(e.target.value);
         try {
-            let { data } = await axios.get(`https://api.github.com/users/${username}/repos`) 
-            
+            /* let { data } = await axios.get(`https://api.github.com/users/${username}/repos`) */
+            let data = reps
             const repo = data.filter(sg => sg.id == e.target.value)
+            console.log(repo)
             
             //console.log([repo[0].forks_count, repo[0].open_issues_count, repo[0].archived, repo[0].stargazers_count ])
             setRepository(repo[0])
@@ -76,7 +77,7 @@ const SearchByRepo = () => {
         }
       }
 
-      const Mailbox = (props) => {
+      const Mailbox = () => {
           console.log("below is")
           console.log(repository)
           let updated = repository.updated_at
@@ -109,6 +110,7 @@ const SearchByRepo = () => {
             
        
             {/* <h1 className = "searchId"> Search form</h1> */}
+            {status ? <div> </div>:
             <div className="areaA">
                 {/* <p> {username} 's repos </p> */}
                 <ul>
@@ -122,16 +124,15 @@ const SearchByRepo = () => {
                         )
                     }
                 </ul>
-            </div>
+            </div>}
 
             <div className="areaB">
         
                 <div>
-                {clicked && <Mailbox />}
+                {!status && clicked && <Mailbox />}
                 </div>
 
             </div>
-
         {error && <div id="error" role ="alert" >{error}</div>}
         </div>
         </>
