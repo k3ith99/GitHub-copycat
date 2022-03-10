@@ -28,7 +28,13 @@ You may also see any lint errors in the console.
 # Wins
 
 * The functionality is there!
+* 
 
 # Challenges
 
-* Styiling the components - needed a bit more time.
+* Styling the components - needed a bit more time.
+
+# Future Features
+
+* Adding a favicon
+* Adding a logo
